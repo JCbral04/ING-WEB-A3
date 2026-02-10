@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ingeniería Web - Estructura Semántica HTML5</title>
+  <meta name="description" content="Sitio educativo sobre ingeniería web, arquitectura cliente-servidor, semántica y accesibilidad con HTML5.">
+</head>
+
+<body>
+  <header>
+    <h1>Ingeniería Web: HTML5, Cliente-Servidor y Accesibilidad</h1>
+
+
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#intro">Introducción</a></li>
+        <li><a href="#cliente-servidor">Cliente-Servidor</a></li>
+        <li><a href="#articulo">Semántica y Accesibilidad</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#reflexion">Reflexión</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main id="contenido">
+    <section id="intro">
+      <h2>Introducción a la ingeniería web</h2>
+      <p>
+        La ingeniería web se enfoca en el diseño, desarrollo, despliegue y mantenimiento de aplicaciones y sitios web.
+        Combina buenas prácticas de ingeniería de software con tecnologías de la web (frontend, backend, bases de datos,
+        seguridad, rendimiento y experiencia de usuario).
+      </p>
+      <p>
+        Un buen punto de partida es entender cómo se estandariza la web: el
+        <a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+        reúne documentación confiable para HTML, CSS y JavaScript.
+      </p>
+    </section>
+
+    <hr>
+
+    <section id="cliente-servidor">
+      <h2>Arquitectura cliente-servidor</h2>
+      <p>
+        En la arquitectura cliente-servidor, el <strong>cliente</strong> (por ejemplo, un navegador)
+        realiza solicitudes y el <strong>servidor</strong> responde con recursos (HTML, CSS, JS, datos, etc.).
+        La comunicación suele ocurrir usando el protocolo HTTP/HTTPS.
+      </p>
+
+      <h3>Ejemplo simple del flujo</h3>
+      <ol>
+        <li>El usuario escribe una URL en el navegador (cliente).</li>
+        <li>El navegador envía una solicitud HTTP al servidor.</li>
+        <li>El servidor procesa la solicitud y devuelve una respuesta.</li>
+        <li>El navegador renderiza el HTML/CSS y ejecuta JavaScript.</li>
+      </ol>
+
+      <p>
+        Para profundizar: guía de HTTP en
+        <a href="https://developer.mozilla.org/es/docs/Web/HTTP/Overview" target="_blank" rel="noopener noreferrer">MDN (HTTP Overview)</a>
+        y conceptos de arquitectura web en
+        <a href="https://web.dev/learn/" target="_blank" rel="noopener noreferrer">web.dev</a>.
+      </p>
+    </section>
+
+    <hr>
+
+    <article id="articulo">
+      <header>
+        <h2>Importancia de la semántica y el diseño accesible</h2>
+        <p><em>Artículo breve para explicar por qué HTML5 semántico ayuda a usuarios y equipos.</em></p>
+      </header>
+
+      <p>
+        Usar etiquetas semánticas (como <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>,
+        <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code> y <code>&lt;footer&gt;</code>) permite que el contenido tenga
+        un significado claro. Esto mejora la lectura del código, el SEO y la compatibilidad con tecnologías de asistencia.
+      </p>
+
+      <p>
+        Un sitio accesible considera a personas con diferentes capacidades (lectores de pantalla, navegación por teclado, etc.).
+        Para esto, ayudan prácticas como: títulos en orden (h1, h2, h3), enlaces descriptivos, buen contraste, y atributos ARIA
+        cuando sea necesario.
+      </p>
+
+      <p>
+        Referencias confiables:
+        <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank" rel="noopener noreferrer">W3C WAI (Introducción a Accesibilidad)</a>
+        y guía de HTML semántico en
+        <a href="https://developer.mozilla.org/es/docs/Glossary/Semantics" target="_blank" rel="noopener noreferrer">MDN (Semantics)</a>.
+      </p>
+
+      <footer>
+        <p><small>Idea clave: semántica = estructura con significado; accesibilidad = inclusión y usabilidad.</small></p>
+      </footer>
+    </article>
+
+    <hr>
+
+    <section id="reflexion">
+      <h2>Reflexión en equipo</h2>
+
+      <h3>¿Por qué organizar semánticamente facilita el trabajo colaborativo y el mantenimiento?</h3>
+      <ul>
+        <li><strong>Divide el trabajo:</strong> cada integrante puede encargarse de una sección (header, main, aside, footer) sin pisarse.</li>
+        <li><strong>El código se entiende rápido:</strong> la estructura “se lee” como un mapa del sitio, incluso sin CSS.</li>
+        <li><strong>Mantenimiento más fácil:</strong> actualizar una parte no rompe el resto porque cada bloque está bien delimitado.</li>
+      </ul>
+
+      <h3>Tres ventajas observadas del uso de HTML5 moderno</h3>
+      <ol>
+        <li><strong>Semántica integrada:</strong> etiquetas claras reemplazan muchos <code>div</code> sin significado.</li>
+        <li><strong>Mejor accesibilidad base:</strong> estructura correcta ayuda a lectores de pantalla y navegación.</li>
+        <li><strong>Compatibilidad y estándares:</strong> validación con el validador HTML5 y soporte amplio en navegadores.</li>
+      </ol>
+
+      <p>
+        Validación oficial:
+        <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">validator.w3.org</a>
+      </p>
+    </section>
+  </main>
+
+  <aside id="recursos" aria-label="Recursos recomendados">
+    <h2>Recursos recomendados</h2>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML en MDN</a></li>
+      <li><a href="https://developer.mozilla.org/es/docs/Learn/Accessibility" target="_blank" rel="noopener noreferrer">Aprender accesibilidad (MDN)</a></li>
+      <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">WCAG 2.2 (W3C)</a></li>
+      <li><a href="https://web.dev/accessibility/" target="_blank" rel="noopener noreferrer">Accesibilidad en web.dev</a></li>
+      <li><a href="https://whatwg.org/" target="_blank" rel="noopener noreferrer">WHATWG (estándares web)</a></li>
+    </ul>
+    <hr>
+  </aside>
+
+ 
+  <footer>
+    <p>
+      | <small>&copy; 2026 - Guia 1 de Ingeniería Web</small>
+    </p>
+  </footer>
+</body>
+</html>
