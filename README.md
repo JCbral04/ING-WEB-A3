@@ -2,9 +2,9 @@
 Reepositorio dedicado a la entrega y presentacion de guias de la asignatura de ingenieria web UMB.
 
 Este es un repositorio para trabajo conjunto cuyos miembros son:
--Juan Esteban Cabral Bautista
--Manuel Santiago Osorio Feo
--Oscar Fabian Forero Diaz
+- Juan Esteban Cabral Bautista
+- Manuel Santiago Osorio Feo
+- Oscar Fabian Forero Diaz
 
 # Guía de Clonación del Repositorio
 
