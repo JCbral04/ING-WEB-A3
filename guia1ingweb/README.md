@@ -17,7 +17,7 @@ También aprendí a organizar archivos y carpetas dentro de un proyecto web, y a
 
 ## Estructura del proyecto
 ```
-/IngeWebA3/
+/IngeWebA3/guia1ingweb
 ├── index.html
 ├── /css/
 │ └── styles.css
@@ -44,3 +44,4 @@ Porque permite que cualquier miembro del equipo entienda fácilmente la estructu
 1. Mejora la accesibilidad para todos los usuarios, incluyendo personas con discapacidad.
 2. Facilita el posicionamiento en buscadores gracias a su estructura clara.
 3. Hace el código más limpio, ordenado y fácil de mantener.
+
