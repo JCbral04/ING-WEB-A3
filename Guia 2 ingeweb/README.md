@@ -2,16 +2,16 @@
 
 En esta guía se realiza la caracterización de los usuarios del sistema mediante tablas de requerimientos funcionales y no funcionales, tanto para el rol de **Residente** como para el rol de **Administrador**. Adicionalmente, se incluyen los diagramas elaborados en PlantUML que modelan el sistema:
 
-- 📐 Diagrama de clases  
+-  Diagrama de clases  
 ![Diagrama de Clases](Media/Clases.png)
 
-- 🔵 Diagrama de casos de uso  
+- Diagrama de casos de uso  
 ![Diagrama de Casos de Uso](Media/Casos.png)
 
-- 🔄 Diagrama de flujo  
+- Diagrama de flujo  
 ![Diagrama de Flujo](Media/Flujo.png)
 
-> 📄 Documento base del proyecto: [Proyecto_ingeweb.docx](https://umbedu-my.sharepoint.com/:w:/g/personal/oscarforero_fd_academia_umb_edu_co/IQCjiM4VZaRKRbrIYC7gN_uYAdt83l4IBn3RhYG3k269cgU?e=3QMGWy)
+>  Documento en linea de las tablas de requerimientos: [Proyecto_ingeweb.docx](https://umbedu-my.sharepoint.com/:w:/g/personal/oscarforero_fd_academia_umb_edu_co/IQCjiM4VZaRKRbrIYC7gN_uYAdt83l4IBn3RhYG3k269cgU?e=3QMGWy)
 
 ---
 
@@ -34,17 +34,8 @@ El sistema actual es deficiente dado que el uso de formularios de Google no perm
 
 ---
 
-## 3. Boceto Web
 
-> Las imágenes del boceto se encuentran en la carpeta `/media` del repositorio.
-
-![Boceto 1](media/image1.png)
-![Boceto 2](media/image2.png)
-![Boceto 3](media/image3.png)
-
----
-
-## 4. Lógica de acciones
+## 3. Lógica de acciones
 
 ### Reserva de un espacio común
 
@@ -115,6 +106,6 @@ Errores humanos en la gestión o problemas técnicos del sistema.
 
 ---
 
-## 5. Reflexión final
+## 4. Reflexión final
 
 Esta actividad permitió identificar un problema real del conjunto residencial y analizar cómo la tecnología puede ayudar a solucionarlo. El uso de formularios de Google no es suficiente para manejar reservas de manera organizada. Diseñar un sistema web facilita la gestión, reduce errores y mejora la comunicación entre residentes y administración. Además, el boceto y la lógica de acciones ayudaron a entender cómo funciona un sistema antes de desarrollarlo. Este ejercicio demuestra la importancia de planear bien una solución digital.
