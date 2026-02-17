@@ -3,13 +3,16 @@
 En esta guía se realiza la caracterización de los usuarios del sistema mediante tablas de requerimientos funcionales y no funcionales, tanto para el rol de **Residente** como para el rol de **Administrador**. Adicionalmente, se incluyen los diagramas elaborados en PlantUML que modelan el sistema:
 
 -  Diagrama de clases  
-![Diagrama de Clases](Media/Clases.png)
+![Diagrama de Clases](Guia 2 ingeweb
+/Media/Clases.png)
 
 - Diagrama de casos de uso  
-![Diagrama de Casos de Uso](Media/Casos.png)
+![Diagrama de Casos de Uso](Guia 2 ingeweb
+/Media/Casos.png)
 
 - Diagrama de flujo  
-![Diagrama de Flujo](Media/Flujo.png)
+![Diagrama de Flujo](Guia 2 ingeweb
+/Media/Flujo.png)
 
 >  Documento en linea de las tablas de requerimientos: [Proyecto_ingeweb.docx](https://umbedu-my.sharepoint.com/:w:/g/personal/oscarforero_fd_academia_umb_edu_co/IQCjiM4VZaRKRbrIYC7gN_uYAdt83l4IBn3RhYG3k269cgU?e=3QMGWy)
 
