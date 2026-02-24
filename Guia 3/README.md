@@ -2,7 +2,7 @@
 
 En esta guía se define y justifica la arquitectura de software seleccionada para el sistema de reservas de zonas comunes del conjunto residencial. La decisión arquitectónica se tomó con base en los requerimientos funcionales y no funcionales levantados en la Guía 2, los diagramas UML elaborados (clases, casos de uso y flujo), y el presupuesto de tiempo real disponible del equipo.
 
->  Documento completo en línea: [Definicion de Arquitectura Proyecto.docx](LINK_DOCUMENTO_ONLINE)
+>  Documento completo en línea: [Definicion de Arquitectura Proyecto.docx](https://umbedu-my.sharepoint.com/:w:/g/personal/juancabral_eb_academia_umb_edu_co/IQBglvsxD4UrSby4IOGnkohmAery2tzUSUeQZ9v9J0cuZ6A?e=z3wDVQ)
 
 ---
 
@@ -70,4 +70,5 @@ Con 10 semanas y entre 90 y 180 horas totales de trabajo en equipo, la arquitect
 └── /database                  ← Capa de Datos
     └── esquema.sql
 ```
+
 
